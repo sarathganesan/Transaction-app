@@ -74,4 +74,26 @@
     color: black;
     align-self: flex-end;
   }
+
+  @media (max-width: 768px) {
+    flex-direction: row;
+    height: 70px;
+    width: 70%;
+    padding: 20px 30px;
+
+   
+
+    .order-stat-card__label,
+    .order-stat-card__date {
+      text-align: right;
+      padding-left: 40px;
+    }
+
+    .order-stat-card__value,
+    .order-stat-card__transaction {
+      text-align: left;
+    }
+  }
 }
+
+

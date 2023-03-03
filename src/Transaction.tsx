@@ -62,7 +62,7 @@ const WidgetOrderStats: React.FC = () => {
           <h2>Last Transactions</h2>
         </div>
         <div className="order-stat-header__right-column">
-          <h2>See All</h2>
+          <h2></h2>
         </div>
       </div>
       {orderStats.map((orderStat, index) => (
