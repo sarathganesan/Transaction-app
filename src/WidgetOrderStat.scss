@@ -1,0 +1,21 @@
+.widget-order-stats {
+    .order-stat-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      
+      &__left-column {
+        flex-grow: 1;
+      }
+      
+      &__right-column {
+        margin-left: 1rem;
+      }
+    }
+    
+    .order-stat-card-container {
+      margin-top: 1rem;
+    }
+  }
+  
